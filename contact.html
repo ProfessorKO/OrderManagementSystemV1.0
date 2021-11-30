@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html  lang="en">
+    <head>
+        <title>Sorrento By the Sea </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/styles.css" media="screen">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <script src="contact_formValidation.js"></script>
+    </head>
+
+    <body>
+        <header id="header">CONTACT US</header>
+        
+        <p><img id="topImage" src="images/sorrento_by_the_sea_logo.jpg" alt="sorrento by the sea logo"></p>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="prices.html">Prices</a></li>
+                <li><a href="apartments.html">Apartments</a></li>
+                <li><a href="attractions.html">Attractions</a></li>
+                <li><a href="bookings.html">Bookings</a></li>
+                <li><a href="contact.html" class="current">Contact Us</a></li>
+            </ul>
+            <div id="pageLink"><a href="#header"><img src="images/back_to_up.png" alt="back to top"></a></div>
+        </nav>
+        
+        
+        
+        <main>
+        
+        <div id="topLayer">
+           
+            <div id="contctleftext"><br><mark> Information and Bookings</mark><br><br>Sorrento By The Sea<br><br>Tel: 0435 123 456<br><br>Add: 42 Holyrood AvenueSorrento VIC 3943
+            </div>
+            <div id="contactrightimage"><img src="images/contactus/portrait.png" alt="three apartment photos lined up portrait"></div>
+            <iframe id="contactgooglemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25032.6025348603!2d144.73178305189907!3d-38.34723878014296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad4357b0e516369%3A0xf1dce538da37e359!2s42%20Holyrood%20Ave%2C%20Sorrento%20VIC%203943!5e0!3m2!1sen!2sau!4v1633915222384!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        
+            
+            <form name="bookingform" id="bookingform" method="post" action="#" onsubmit="return contactFormValidation()">
+                <br><p id="contactFormTitle"><mark>Drop Us A Message</mark></p><br>
+                
+                <label for="firstname">First Name:</label>
+                <input type="text" name="firstname" id="firstname" size="35"><br>
+                
+                <label for="middlename">Middle Name(Optional):</label>
+                <input type="text" name="middlename" id="middlename" size="35"><br>
+                
+                <label for="lastname">Last Name:</label>
+                <input type="text" name="lastname" id="lastname" size="35"><br>
+                
+                <label for="phonenumber">Phone Number:</label>
+                <select name="phoneareacode" id="phoneareacode">
+                <option value="areacode">Area Code</option>
+                <option value="02">02</option> 
+                <!-- quotation sign for 6" -->
+                <option value="03">03</option>
+                <option value="04">04</option>
+                <option value="07">07</option>
+                <option value="08">08</option>
+                </select>
+                <input type="text" name="phonenumber" id="phonenumber" size="21"><br>
+                
+                <label for="email">Email Address:</label>
+                <input type="text" name="email" id="email" size="35"> 
+                <!-- @<input type="text" name="emaildomain" id="emaildomain" size="19"> -->
+                <br>
+                
+                <label for="contactmessage">Message:</label>
+                <textarea id="contactmessage" name="contactmessage"></textarea><br>
+                            
+                <input type="submit" name="submitbtn" id="submitbtn" value="Submit Me">
+                <input type="reset" name="resetbtn" id="resetbtn" value="Reset Form">
+            </form>
+            
+            
+        </div>
+        
+            <div id="contactSplit"></div>
+            
+            <a id="bottomBooking" href="bookings.html">Book Now!</a>         
+            <div>
+            <img id="testImage" src="images/back_beach.jpg" alt="beach at the back of Sorrento By the Sea">
+            </div>
+            
+        
+       
+       </main>
+        
+        <footer>
+            <div id="copyright">&copy; Sorrento By the Sea 2021<br><a href="contact.html">Contact Us</a></div>
+            
+            <div id="socialMedia">
+            <img id="facebookSmall" src="images/facebook_small.png" alt="facebook small logo">
+            <img id="instagramSmall" src="images/instagram_small.png" alt="instagram small logo">
+            <img id="twitterSmall" src="images/twitter_small.png" alt="twitter small logo">
+            <img id="youtubeSmall" src="images/youtube-variation_small.png" alt="youtube small logo">
+            <img id="paypaleSmall" src="images/paypal_small.png" alt="paypall small logo">
+            </div>
+
+        </footer>
+
+    </body>
+</html>
