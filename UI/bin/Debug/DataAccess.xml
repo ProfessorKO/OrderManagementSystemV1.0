@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DataAccess</name>
+    </assembly>
+    <members>
+        <member name="M:DataAccess.Repository.#ctor">
+            <summary>
+            Constructor of Repository class
+            </summary>
+        </member>
+        <member name="M:DataAccess.Repository.InsertOrderHearder">
+            <summary>
+            Method for inserting a new order header in Sql and return a OrderHeader type variable with order header Id, state and date/time
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DataAccess.Repository.GetOrderHeader(System.Int32)">
+            <summary>
+            Method for selecting an order header by its Id and return a OrderHeader type variable and update/add to its OrderItem type List within 
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DataAccess.Repository.GetOrderHeaders">
+            <summary>
+            Methods for selecting all existing order headers and attached order items and return an OrderHeader type List
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DataAccess.Repository.UpsertOrderItem(Domain.OrderItem)">
+            <summary>
+            Method for updating/inserting a new order item under a selected order header. If there is alreay an order item of the same
+            stock item within the selected order header, the quantity will get added on by the new order item quantiy and no new order 
+            item will be generarted
+            </summary>
+            <param name="orderItem"></param>
+        </member>
+        <member name="M:DataAccess.Repository.UpdateOrderState(Domain.OrderHeader)">
+            <summary>
+            Method for changing order state
+            </summary>
+            <param name="orderHeader"></param>
+        </member>
+        <member name="M:DataAccess.Repository.UpdateOrderStateNewToPending(Domain.OrderHeader)">
+            <summary>
+            Method for changing order state from new to pending
+            </summary>
+            <param name="orderHeader"></param>
+        </member>
+        <member name="M:DataAccess.Repository.UpdateOrderStatePendingToCompleted(Domain.OrderHeader)">
+            <summary>
+            Method for chaning order state from pending to complete
+            </summary>
+            <param name="orderHeader"></param>
+        </member>
+        <member name="M:DataAccess.Repository.UpdateOrderStatePendingtoRejected(Domain.OrderHeader)">
+            <summary>
+            Method for chaning order state from pending to rejected
+            </summary>
+            <param name="orderHeader"></param>
+        </member>
+        <member name="M:DataAccess.Repository.DeleteOrderHeaderAndOrderItems(System.Int32)">
+            <summary>
+            Method for deleting a selected order header and all existing order items within by the order header Id
+            </summary>
+            <param name="orderHeaderId"></param>
+        </member>
+        <member name="M:DataAccess.Repository.DeleteOrderItem(System.Int32,System.Int32)">
+            <summary>
+            Method for deleting a selected order item by stock item Id under a selected order header by order header Id
+            </summary>
+            <param name="orderHeaderId"></param>
+            <param name="stockItemId"></param>
+        </member>
+        <member name="M:DataAccess.Repository.GetStockItems">
+            <summary>
+            Method for selecting all stock items and return a StokItem type List
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DataAccess.Repository.GetStockItem(System.Int32)">
+            <summary>
+            Method for selecting a stock item by stock item Id and return a StockItem type variable
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DataAccess.Repository.UpdateStockItemAmount(Domain.OrderHeader)">
+            <summary>
+            Method for reducing stock quantity of a selected item when the attached order header has been processed from pending to completed
+            </summary>
+            <param name="orderHeader"></param>
+        </member>
+    </members>
+</doc>

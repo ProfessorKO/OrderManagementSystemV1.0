@@ -1,0 +1,45 @@
+D:\Documents\TAFE Course\Certificate IV Programming\3 Programming1&2\Program 2 Project\Cl_Programming_2_AE_Pro_1of3_SR1\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\obj\Debug\UI.csproj.AssemblyReference.cache
+D:\Documents\TAFE Course\Certificate IV Programming\3 Programming1&2\Program 2 Project\Cl_Programming_2_AE_Pro_1of3_SR1\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\obj\Debug\MainWindow.g.cs
+D:\Documents\TAFE Course\Certificate IV Programming\3 Programming1&2\Program 2 Project\Cl_Programming_2_AE_Pro_1of3_SR1\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\obj\Debug\View\AddOrderItemView.g.cs
+D:\Documents\TAFE Course\Certificate IV Programming\3 Programming1&2\Program 2 Project\Cl_Programming_2_AE_Pro_1of3_SR1\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\obj\Debug\View\AddOrderView.g.cs
+D:\Documents\TAFE Course\Certificate IV Programming\3 Programming1&2\Program 2 Project\Cl_Programming_2_AE_Pro_1of3_SR1\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\obj\Debug\View\OrderDetailsView.g.cs
+D:\Documents\TAFE Course\Certificate IV Programming\3 Programming1&2\Program 2 Project\Cl_Programming_2_AE_Pro_1of3_SR1\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\obj\Debug\View\OrdersView.g.cs
+D:\Documents\TAFE Course\Certificate IV Programming\3 Programming1&2\Program 2 Project\Cl_Programming_2_AE_Pro_1of3_SR1\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\obj\Debug\App.g.cs
+D:\Documents\TAFE Course\Certificate IV Programming\3 Programming1&2\Program 2 Project\Cl_Programming_2_AE_Pro_1of3_SR1\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\obj\Debug\UI_MarkupCompile.cache
+D:\Documents\TAFE Course\Certificate IV Programming\3 Programming1&2\Program 2 Project\Cl_Programming_2_AE_Pro_1of3_SR1\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\obj\Debug\UI_MarkupCompile.lref
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\obj\Debug\MainWindow.g.cs
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\obj\Debug\View\AddOrderItemView.g.cs
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\obj\Debug\View\AddOrderView.g.cs
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\obj\Debug\View\OrderDetailsView.g.cs
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\obj\Debug\View\OrdersView.g.cs
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\obj\Debug\App.g.cs
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\obj\Debug\UI_MarkupCompile.cache
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\obj\Debug\UI_MarkupCompile.lref
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\bin\Debug\UI.exe.config
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\bin\Debug\UI.exe
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\bin\Debug\UI.pdb
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\obj\Debug\MainWindow.baml
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\obj\Debug\View\AddOrderItemView.baml
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\obj\Debug\View\AddOrderView.baml
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\obj\Debug\View\OrderDetailsView.baml
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\obj\Debug\View\OrdersView.baml
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\obj\Debug\UI.g.resources
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\obj\Debug\UI.Properties.Resources.resources
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\obj\Debug\UI.csproj.GenerateResource.cache
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\obj\Debug\UI.exe
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\obj\Debug\UI.pdb
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\obj\Debug\UI.csproj.AssemblyReference.cache
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\bin\Debug\Controllers.dll
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\bin\Debug\DataAccess.dll
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\bin\Debug\Domain.dll
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\bin\Debug\Controllers.pdb
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\bin\Debug\Controllers.dll.config
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\bin\Debug\DataAccess.pdb
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\bin\Debug\DataAccess.dll.config
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\bin\Debug\Domain.pdb
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\bin\Debug\Domain.dll.config
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\obj\Debug\View\AddOrderViewWithLineItem.g.cs
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\obj\Debug\View\AddOrderViewWithLineItem.baml
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\bin\Debug\DataAccess.xml
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\UI\bin\Debug\Domain.xml
