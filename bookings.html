@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html  lang="en">
+    <head>
+        <title>Sorrento By the Sea </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/styles.css" media="screen">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <script src="booking_calendar.js"></script>
+        <script src="contact_formValidation.js"></script>
+        
+    </head>
+
+    <body>
+        <header id="header">BOOKINGS</header>
+        
+        <p><img id="topImage" src="images/sorrento_by_the_sea_logo.jpg" alt="sorrento by the sea logo"></p>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="prices.html">Prices</a></li>
+                <li><a href="apartments.html">Apartments</a></li>
+                <li><a href="attractions.html">Attractions</a></li>
+                <li><a href="bookings.html" class="current">Bookings</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <div id="pageLink"><a href="#header"><img src="images/back_to_up.png" alt="back to top"></a></div>
+        </nav>
+        
+        
+        
+        <main>
+        
+        <div id="topLayer">
+            <div id="cal-wrap">
+                <!-- [PERIOD SELECTOR] -->
+                <div id="cal-date">
+                <select id="cal-mth"></select>
+                <select id="cal-yr"></select>
+                <input id="cal-set" type="button" value="SET"/>
+                </div>
+
+                <!-- [CALENDAR] -->
+                <div id="cal-container"></div>
+
+                <!-- [Total] -->
+                <H5><mark>Total(AUD):</mark></H5> <div id="total-cost"></div> 
+                
+
+
+                <!-- [EVENT] -->
+                <div id="cal-event"></div>
+            </div>
+            
+            <form name="bookingform" id="bookingform" method="post" action="#" onsubmit="
+            return contactFormValidation()">
+                <br><p id="personalInfoTitle"><mark>Personal Information</mark></p><br>
+                
+                <label for="firstname">First Name:</label>
+                <input type="text" name="firstname" id="firstname" size="42"><br>
+                
+                <label for="middlename">Middle Name(Optional):</label>
+                <input type="text" name="middlename" id="middlename" size="42"><br>
+                
+                <label for="lastname">Last Name:</label>
+                <input type="text" name="lastname" id="lastname" size="42"><br>
+                
+                <label for="phonenumber">Phone Number:</label>
+                <select name="phonenumber">
+                <option value="areacode">Area Code</option>
+                <option value="02">02</option> 
+                <option value="03">03</option>
+                <option value="04">04</option>
+                <option value="07">07</option>
+                <option value="08">08</option>
+                </select>
+                <input type="text" name="phonenumber" id="phonenumber" size="27"><br>
+                
+                <label for="email">Email Address:</label>
+                <input type="text" name="email" id="email" size="42"><br>
+                <!-- @<input type="text" name="emaildomain" id="emaildomain" size="19"><br> -->
+                
+                <!-- <br><p id="bookingsInfoTitle"><mark>Bookings Information</mark></p><br> -->
+                
+                <!-- <label>Booking Options: </label> -->
+                <!-- <select name="bookingoptions"> -->
+                <!-- <option value="01">By Day / Winter ($200 per night)</option> -->
+                <!-- <option value="02">By Day / Summer ($200 per night)</option>  -->
+                <!-- <option value="03">By Week ($1250 per week)</option> -->
+                <!-- <option value="04">By Month ($5400 per month)</option> -->
+                <!-- </select><br> -->
+                
+                <!-- <label>Quantity<br>(days/weeks/months): </label> -->
+                <!-- <select name="quantity"> -->
+                <!-- <option value="1">1</option> -->
+                <!-- <option value="2">2</option>  -->
+                <!-- <option value="3">3</option> -->
+                <!-- <option value="4">4</option> -->
+                <!-- <option value="5">5</option> -->
+                <!-- <option value="6">6</option> -->
+                <!-- <option value="7">7</option> -->
+                 <!-- </select><br><br> -->
+                 
+                <!-- <p id="bookingnotes">For any quantity greater than 7, please speak to our friendly staff to discuss.</p><br> -->
+                 
+                <!-- <label>Start Day: </label> -->
+                <!-- <select name="starday"> -->
+                <!-- <option value="1">1</option> -->
+                <!-- <option value="2">2</option>  -->
+                <!-- <option value="3">3</option> -->
+                <!-- <option value="4">4</option> -->
+                <!-- <option value="5">5</option> -->
+                <!-- <option value="6">6</option> -->
+                <!-- <option value="7">7</option> -->
+                <!-- <option value="7">8</option> -->
+                <!-- <option value="7">9</option> -->
+                <!-- <option value="7">10</option> -->
+                <!-- <option value="7">11</option> -->
+                <!-- <option value="7">12</option> -->
+                <!-- <option value="7">13</option> -->
+                <!-- <option value="7">14</option> -->
+                <!-- <option value="7">15</option> -->
+                <!-- <option value="7">16</option> -->
+                <!-- <option value="7">17</option> -->
+                <!-- <option value="7">18</option> -->
+                <!-- <option value="7">19</option> -->
+                <!-- <option value="7">20</option> -->
+                <!-- <option value="7">21</option> -->
+                <!-- <option value="7">22</option> -->
+                <!-- <option value="7">23</option> -->
+                <!-- <option value="7">24</option> -->
+                <!-- <option value="7">25</option> -->
+                <!-- <option value="7">26</option> -->
+                <!-- <option value="7">27</option> -->
+                <!-- <option value="7">28</option> -->
+                <!-- <option value="7">29</option> -->
+                <!-- <option value="7">30</option> -->
+                <!-- <option value="7">31</option> -->
+                <!-- </select><br> -->
+                
+                <!-- <label>Start Month: </label> -->
+                <!-- <select name="startmonth"> -->
+                <!-- <option value="1">Januray</option> -->
+                <!-- <option value="2">Feburary</option>  -->
+                <!-- <option value="3">March</option> -->
+                <!-- <option value="4">April</option> -->
+                <!-- <option value="5">May</option> -->
+                <!-- <option value="6">June</option> -->
+                <!-- <option value="7">July</option> -->
+                <!-- <option value="8">August</option> -->
+                <!-- <option value="9">September</option> -->
+                <!-- <option value="10">Octobor</option> -->
+                <!-- <option value="11">November</option> -->
+                <!-- <option value="12">December</option> -->
+                <!-- </select><br> -->
+                
+                <!-- <label>Start Year: </label> -->
+                <!-- <select name="startyear">  -->
+                <!-- <option value="1">2021</option> -->
+                <!-- <option value="2">2022</option>  -->
+                <!-- <option value="3">2023</option> -->
+                <!-- </select><br> -->
+                
+                <!-- <label>End Day: </label> -->
+                <!-- <select name="endday"> -->
+                <!-- <option value="1">1</option> -->
+                <!-- <option value="2">2</option>  -->
+                <!-- <option value="3">3</option> -->
+                <!-- <option value="4">4</option> -->
+                <!-- <option value="5">5</option> -->
+                <!-- <option value="6">6</option> -->
+                <!-- <option value="7">7</option> -->
+                <!-- <option value="7">8</option> -->
+                <!-- <option value="7">9</option> -->
+                <!-- <option value="7">10</option> -->
+                <!-- <option value="7">11</option> -->
+                <!-- <option value="7">12</option> -->
+                <!-- <option value="7">13</option> -->
+                <!-- <option value="7">14</option> -->
+                <!-- <option value="7">15</option> -->
+                <!-- <option value="7">16</option> -->
+                <!-- <option value="7">17</option> -->
+                <!-- <option value="7">18</option> -->
+                <!-- <option value="7">19</option> -->
+                <!-- <option value="7">20</option> -->
+                <!-- <option value="7">21</option> -->
+                <!-- <option value="7">22</option> -->
+                <!-- <option value="7">23</option> -->
+                <!-- <option value="7">24</option> -->
+                <!-- <option value="7">25</option> -->
+                <!-- <option value="7">26</option> -->
+                <!-- <option value="7">27</option> -->
+                <!-- <option value="7">28</option> -->
+                <!-- <option value="7">29</option> -->
+                <!-- <option value="7">30</option> -->
+                <!-- <option value="7">31</option> -->
+                <!-- </select><br> -->
+                
+                <!-- <label>End Month: </label> -->
+                <!-- <select name="endmonth"> -->
+                <!-- <option value="1">Januray</option> -->
+                <!-- <option value="2">Feburary</option>  -->
+                <!-- <option value="3">March</option> -->
+                <!-- <option value="4">April</option> -->
+                <!-- <option value="5">May</option> -->
+                <!-- <option value="6">June</option> -->
+                <!-- <option value="7">July</option> -->
+                <!-- <option value="8">August</option> -->
+                <!-- <option value="9">September</option> -->
+                <!-- <option value="10">Octobor</option> -->
+                <!-- <option value="11">November</option> -->
+                <!-- <option value="12">December</option> -->
+                <!-- </select><br> -->
+                
+                <!-- <label>End Year: </label> -->
+                <!-- <select name="endyear">  -->
+                <!-- <option value="1">2021</option> -->
+                <!-- <option value="2">2022</option>  -->
+                <!-- <option value="3">2023</option> -->
+                <!-- </select><br> -->
+                
+                <!-- <label>Pet(s): </label> -->
+                <!-- <select name="pet">  -->
+                <!-- <option value="1">Yes</option> -->
+                <!-- <option value="2">No</option>  -->
+                <!-- </select><br> -->
+                
+                <!-- <label>Special Request: </label> -->
+                <!-- <textarea id="bookingRequest" name="specialrequest"></textarea><br><label>Special Request: </label> -->
+                <!-- <textarea id="bookingRequest" name="specialrequest"></textarea><br>               -->
+                            
+                <input type="submit" name="submitbtn" id="submitbtn" value="Submit Me">
+                <input type="reset" name="resetbtn" id="resetbtn" value="Reset Form">
+            </form>
+            
+        </div>
+        
+            <!-- <div id="bookingsSplit"></div> -->
+            
+                     
+            <!-- <div> -->
+            <!-- <img id="testImage" src="images/back_beach.jpg" alt="beach at the back of Sorrento By the Sea"> -->
+            <!-- </div> -->
+            
+        
+       
+       </main>
+        
+        <footer>
+            <div id="copyright">&copy; Sorrento By the Sea 2021<br><a href="contact.html">Contact Us</a></div>
+            
+            <div id="socialMedia">
+            <img id="facebookSmall" src="images/facebook_small.png" alt="facebook small logo">
+            <img id="instagramSmall" src="images/instagram_small.png" alt="instagram small logo">
+            <img id="twitterSmall" src="images/twitter_small.png" alt="twitter small logo">
+            <img id="youtubeSmall" src="images/youtube-variation_small.png" alt="youtube small logo">
+            <img id="paypaleSmall" src="images/paypal_small.png" alt="paypall small logo">
+            </div>
+
+        </footer>
+
+    </body>
+</html>
