@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Domain</name>
+    </assembly>
+    <members>
+        <member name="P:Domain.OrderComplete.State">
+            <summary>
+            field 
+            </summary>
+        </member>
+        <member name="F:Domain.OrderHeader._orderItems">
+            <summary>
+            OrderHeader Class field of a OrderItem type List
+            </summary>
+        </member>
+        <member name="P:Domain.OrderHeader.ItemNumber">
+            <summary>
+            OrderHeader Class property of count of the OrderItem type List
+            </summary>
+        </member>
+        <member name="P:Domain.OrderHeader.DateTime">
+            <summary>
+            OrderHeader Class property of record date and time of creation
+            </summary>
+        </member>
+        <member name="P:Domain.OrderHeader.Id">
+            <summary>
+            OrderHeader Class property of order header Id
+            </summary>
+        </member>
+        <member name="F:Domain.OrderHeader._orderState">
+            <summary>
+            OrderHeader Class property of order header state (1,2,3,and 4)
+            </summary>
+        </member>
+        <member name="P:Domain.OrderHeader.State">
+            <summary>
+            OrderHeader Class property of order header state (new, pending, complete, and rejected)
+            </summary>
+        </member>
+        <member name="P:Domain.OrderHeader.Total">
+            <summary>
+            OrderHeader Class property of total dollar value of the orde header
+            </summary>
+        </member>
+        <member name="M:Domain.OrderHeader.#ctor(System.Int32,System.Int32,System.DateTime)">
+            <summary>
+            OrderHeader Class Constructor with 3 parameters
+            </summary>
+            <param name="id"></param>
+            <param name="stateId"></param>
+            <param name="dataTime"></param>
+        </member>
+        <member name="M:Domain.OrderHeader.UpdateOrderItem(System.Int32,System.Int32,System.String,System.Decimal,System.Int32)">
+            <summary>
+            OrderHeader Class method for updating or adding new order itme to the List. If there is alreay an order item of the same
+            stock item, the order quantity will get added on by the new orde item quantity and no new orde item will be generated.
+            </summary>
+            <param name="orderHeaderId"></param>
+            <param name="stockId"></param>
+            <param name="desc"></param>
+            <param name="price"></param>
+            <param name="qty"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Domain.OrderItem.Description">
+            <summary>
+            OrderItem Class property of item name
+            </summary>
+        </member>
+        <member name="P:Domain.OrderItem.OrderHeader">
+            <summary>
+            OrderItem Class property of attached order header in OrderHeader type
+            </summary>
+        </member>
+        <member name="P:Domain.OrderItem.OrderHeaderId">
+            <summary>
+            OrderItem Class property of attached order heade Id
+            </summary>
+        </member>
+        <member name="P:Domain.OrderItem.Price">
+            <summary>
+            OrderItem Class property of order item's unit price
+            </summary>
+        </member>
+        <member name="P:Domain.OrderItem.Quantity">
+            <summary>
+            OrderItem Class property of order item's quantity
+            </summary>
+        </member>
+        <member name="P:Domain.OrderItem.StockItemId">
+            <summary>
+            OrderItem Class property of order item's stock Id
+            </summary>
+        </member>
+        <member name="P:Domain.OrderItem.Total">
+            <summary>
+            OrderItem Class property of order item's total dollar value
+            </summary>
+        </member>
+        <member name="M:Domain.OrderItem.#ctor(Domain.OrderHeader,System.Int32,System.Int32,System.String,System.Decimal,System.Int32)">
+            <summary>
+            OrderItem Class Constructor with 6 parameters
+            </summary>
+            <param name="orderHeader"></param>
+            <param name="orderheaderId"></param>
+            <param name="stockId"></param>
+            <param name="desc"></param>
+            <param name="price"></param>
+            <param name="qty"></param>
+        </member>
+        <member name="T:Domain.OrderStates">
+            <summary>
+            Order state enum type for convert integer into the state name in string
+            </summary>
+        </member>
+        <member name="P:Domain.StockItem.Id">
+            <summary>
+            StockItem Class property of stock Id
+            </summary>
+        </member>
+        <member name="P:Domain.StockItem.InStock">
+            <summary>
+            StockItem Class property of stock quantity
+            </summary>
+        </member>
+        <member name="P:Domain.StockItem.Name">
+            <summary>
+            StockItem Class property of stock name
+            </summary>
+        </member>
+        <member name="P:Domain.StockItem.Price">
+            <summary>
+            StockItem Class property of stock unit price
+            </summary>
+        </member>
+        <member name="M:Domain.StockItem.#ctor(System.Int32,System.String,System.Decimal,System.Int32)">
+            <summary>
+            StockItem Class Constructor with 4 parameters
+            </summary>
+            <param name="id"></param>
+            <param name="itemName"></param>
+            <param name="itemPrice"></param>
+            <param name="itemStock"></param>
+        </member>
+    </members>
+</doc>

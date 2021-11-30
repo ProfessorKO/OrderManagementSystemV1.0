@@ -1,0 +1,14 @@
+D:\Documents\TAFE Course\Certificate IV Programming\3 Programming1&2\Program 2 Project\Cl_Programming_2_AE_Pro_1of3_SR1\Cl_Programming_2_AE_Pro_1of3_SR1\UI\Domain\bin\Debug\Domain.dll
+D:\Documents\TAFE Course\Certificate IV Programming\3 Programming1&2\Program 2 Project\Cl_Programming_2_AE_Pro_1of3_SR1\Cl_Programming_2_AE_Pro_1of3_SR1\UI\Domain\bin\Debug\Domain.pdb
+D:\Documents\TAFE Course\Certificate IV Programming\3 Programming1&2\Program 2 Project\Cl_Programming_2_AE_Pro_1of3_SR1\Cl_Programming_2_AE_Pro_1of3_SR1\UI\Domain\obj\Debug\Domain.csproj.AssemblyReference.cache
+D:\Documents\TAFE Course\Certificate IV Programming\3 Programming1&2\Program 2 Project\Cl_Programming_2_AE_Pro_1of3_SR1\Cl_Programming_2_AE_Pro_1of3_SR1\UI\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+D:\Documents\TAFE Course\Certificate IV Programming\3 Programming1&2\Program 2 Project\Cl_Programming_2_AE_Pro_1of3_SR1\Cl_Programming_2_AE_Pro_1of3_SR1\UI\Domain\obj\Debug\Domain.dll
+D:\Documents\TAFE Course\Certificate IV Programming\3 Programming1&2\Program 2 Project\Cl_Programming_2_AE_Pro_1of3_SR1\Cl_Programming_2_AE_Pro_1of3_SR1\UI\Domain\obj\Debug\Domain.pdb
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\Domain\bin\Debug\Domain.dll
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\Domain\bin\Debug\Domain.pdb
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\Domain\obj\Debug\Domain.dll
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\Domain\obj\Debug\Domain.pdb
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\Domain\bin\Debug\Domain.dll.config
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\Domain\obj\Debug\Domain.csproj.AssemblyReference.cache
+D:\Desktop\Cl_Programming_2_AE_Pro_1of3_SR1\UI\Domain\bin\Debug\Domain.xml
